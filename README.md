@@ -11,10 +11,14 @@ dotnet tool install --global Nswag.ConsoleCore
 Then get the Swagger file from:
 
 ```
-https://api.compusoft.no/swagger/v1/swagger.json?apikey=...
+https://api.compusoft.com/swagger/v1/swagger.json?apikey=...
 ```
 
 and save it as `swagger.json`.
+
+```
+curl https://api.compusoft.com/swagger/v1/swagger.json?apikey=... > swagger.json
+```
 
 Then generate the client like this:
 
